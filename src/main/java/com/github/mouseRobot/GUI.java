@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by kozo on 5/31/15.
+ * Created by Omar Zahed on 5/31/15.
  */
 
 public class GUI {
@@ -17,8 +17,8 @@ public class GUI {
         JPanel rootPanel=new JPanel();
         rootPanel.setLayout(new GridLayout(4,0,0,0));
         mJFrame.add(rootPanel);
-        rootPanel.add(new JLabel("Press CTR +Shift record/stop recoding The mouse movement"));
-        rootPanel.add(new JLabel("Press CTR+ALT to preform/stop the recorded movment "));
+        rootPanel.add(new JLabel("Press CTR +ALT record/stop recoding The mouse movement"));
+        rootPanel.add(new JLabel("Press CTR+Shift to preform/stop the recorded movment "));
         btExit=new JButton("Exit");
         mJFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         btExit.addActionListener(new ActionListener() {
