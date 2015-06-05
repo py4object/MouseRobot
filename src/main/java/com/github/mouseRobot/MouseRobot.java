@@ -1,7 +1,7 @@
 package com.github.mouseRobot;
 
 /**
- * Created by kozo on 6/1/15.
+ * Created by Omar Zahed on 6/1/15.
  */
 import org.jnativehook.*;
 import org.jnativehook.keyboard.NativeKeyEvent;
@@ -39,10 +39,6 @@ public class MouseRobot implements NativeMouseInputListener ,NativeKeyListener {
         GlobalScreen.addNativeMouseMotionListener(this);
         record = new ArrayList<MouseEatery>();
         mRobot = new Robot();
-        while (true)
-            System.out.println("isRecoding= "+isRecording+" isPreforming= "+isPreforming
-            +"\n isCTR="+isCTR+" isAlt= "+isALT+"\n isShift= "+isShift);
-
 
 
     }
